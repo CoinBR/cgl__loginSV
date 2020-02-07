@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  sgl-login-sv:
+    image: "node:13.8.0-alpine3.11"
+    environment:
+      - TZ='America/Recife'
+      - NUNBUFFERED=0
+    working_dir: /usr/src/app 
+    volumes:
+      - ./app/:/usr/src/app 
+    command: "node index.js"

@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"test": "ava"
+	},
+	"devDependencies": {
+		"ava": "^3.2.0"
+	},
+	"dependencies": {
+		"amqplib": "^0.5.5"
+	}
+}
