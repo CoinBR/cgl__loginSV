@@ -1,0 +1,3 @@
+[submodule "getLoggedPcsList"]
+	path = getLoggedPcsList
+	url = git@github.com:CoinBR/cgl__loginSV__getLoggedPcsList.git
