@@ -1,3 +1,6 @@
 [submodule "do"]
 	path = do
 	url = git@github.com:CoinBR/do.git
+[submodule "submodules/getLoggedPcsList"]
+	path = submodules/getLoggedPcsList
+	url = git@github.com:CoinBR/cgl__loginSV__getLoggedPcsList.git
